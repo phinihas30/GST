@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0d6efd"
       },
-      "package": "com.yourcompany.gstcalculator",
+      "package": "com.yourusername.gstcalculator",
       "versionCode": 1,
       "permissions": []
     },
@@ -33,16 +33,6 @@
       "eas": {
         "projectId": "your-project-id"
       }
-    },
-    "plugins": [
-      [
-        "expo-font",
-        {
-          "fonts": [
-            "./node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"
-          ]
-        }
-      ]
-    ]
+    }
   }
 }
