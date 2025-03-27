@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# GST Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, intuitive mobile application for calculating GST (Goods and Services Tax) and keeping records of your transactions.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **GST Calculator**: Calculate GST amounts with different rates (5%, 12%, 18%, 28%)
+- **Records Management**: Save and manage your GST calculation records
+- **Search & Filter**: Easily find previous calculations by searching and filtering
+- **User Profile**: Manage your business information
+- **Modern UI**: Clean, intuitive interface with smooth navigation
 
-   ```bash
+## Technology Stack
+
+- **React Native**: For cross-platform mobile app development
+- **Expo**: Simplified React Native development framework
+- **React Navigation**: For screen navigation
+- **React Native Paper**: Material Design components
+- **AsyncStorage**: For local data persistence
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (>= 14.0.0)
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android development) or Xcode (for iOS development)
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/yourusername/gst-calculator-app.git
+   cd gst-calculator-app
+   ```
+
+2. Install dependencies
+   ```
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
+3. Start the development server
+   ```
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the app in your emulator or on your device using Expo Go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Home Screen**: View different GST rates and navigate to calculator
+2. **Calculator**: Enter the amount, select GST rate, view calculations and save them
+3. **Records**: View saved calculations, search, filter, and manage records
+4. **Profile**: Update your personal and business information
 
-## Get a fresh project
+## License
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
